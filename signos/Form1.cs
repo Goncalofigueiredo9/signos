@@ -22,7 +22,6 @@ namespace signos
         private void Button1_Click(object sender, EventArgs e)
         {
             dia.recebe = textBox1.Text;
-            dia.recebe = textBox1.Text;
             label1.Text = ("O dia da semana é " + dia.diadasemana);
             label2.Text = dia.envia;
             label3.Text = dia.signo;
