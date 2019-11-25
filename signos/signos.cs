@@ -57,6 +57,7 @@ namespace signos
             }
         }
 
+
         public string signo
         {
             get
@@ -214,6 +215,166 @@ namespace signos
                     }
                 }
                 return signo;
+            }
+        }
+
+        public string signofrases
+            {
+            get
+            {
+                DateTime hoje = DateTime.Now;
+
+                int jan = 1;
+                int fev = 2;
+                int mar = 3;
+                int abr = 4;
+                int mai = 5;
+                int jun = 6;
+                int jul = 7;
+                int ago = 8;
+                int set = 9;
+                int otu = 10;
+                int nov = 11;
+                int dez = 12;
+
+                int dias = data.Day;
+
+                string signofrase = "";
+
+                if (jan == data.Month)
+                {
+                    if (19 < dias)
+                    {
+
+                        signofrase += "Algumas coisas na vida nos aquarianos podem se realizar em ritmo mais lento do que você está acostumado";
+                    }
+                    else
+                    {
+                        signofrase += "Diversas áreas da vida do capricorniano, de valores materiais e espirituais, podem passar por mudanças em 2020.";
+                    }
+                }
+                else if (fev == data.Month)
+                {
+                    if (18 < dias)
+                    {
+                        signofrase += "Pequenos detalhes podem oportunizar importantes mudanças positivas na vida dos piscianos.";
+                    }
+                    else
+                    {
+                        signofrase += "Algumas coisas na vida nos aquarianos podem se realizar em ritmo mais lento do que você está acostumado.";
+                    }
+                }
+                else if (mar == data.Month)
+                {
+                    if (20 < dias)
+                    {
+                        signofrase += "Os arianos terão um ano com forte tendência de crescimento e expansão na carreira e na profissão.";
+                    }
+                    else
+                    {
+                        signofrase += "Pequenos detalhes podem oportunizar importantes mudanças positivas na vida dos piscianos.";
+                    }
+                }
+                else if (abr == data.Month)
+                {
+                    if (19 < dias)
+                    {
+                        signofrase += "Os taurinos terão um ótimo ano para realizar mudanças na forma de ser e de se relacionar..";
+                    }
+                    else
+                    {
+                        signofrase += "Os arianos terão um ano com forte tendência de crescimento e expansão na carreira e na profissão.";
+                    }
+                }
+                else if (mai == data.Month)
+                {
+                    if (20 < dias)
+                    {
+                        signofrase += "Os geminianos podem perceber com mais força o movimento de Mercúrio Retrógrado no novo ano.";
+                    }
+                    else
+                    {
+                        signofrase += "Os taurinos terão um ótimo ano para realizar mudanças na forma de ser e de se relacionar..";
+                    }
+                }
+                else if (jun == data.Month)
+                {
+                    if (20 < dias)
+                    {
+                        signofrase += "Os cancerianos terão um ano excelente para correr atrás do que você tanto almejam, porém, nada virá facilmente..";
+                    }
+                    else
+                    {
+                        signofrase += "Os geminianos podem perceber com mais força o movimento de Mercúrio Retrógrado no novo ano.";
+                    }
+                }
+                else if (jul == data.Month)
+                {
+                    if (22 < dias)
+                    {
+                        signofrase += "Leoninos terão a oportunidade de fazer importantes mudanças durante o novo ano. Porém, atenção ao estresse.";
+                    }
+                    else
+                    {
+                        signofrase += "Os cancerianos terão um ano excelente para correr atrás do que você tanto almejam, porém, nada virá facilmente..";
+                    }
+                }
+                else if (ago == data.Month)
+                {
+                    if (22 < dias)
+                    {
+                        signofrase += "Virginianos, abracem as oportunidades porque poderão revelar talentos da sua personalidade que até então você nem sabia que tinha.";
+                    }
+                    else
+                    {
+                        signofrase += "Leoninos terão a oportunidade de fazer importantes mudanças durante o novo ano. Porém, atenção ao estresse.";
+                    }
+                }
+                else if (set == data.Month)
+                {
+                    if (22 < dias)
+                    {
+                        signofrase += "Librianos têm alto potencial para crescimento profissional, mas com certo nível de tensão e estresse nos relacionamentos.";
+                    }
+                    else
+                    {
+                        signofrase += "Virginianos, abracem as oportunidades porque poderão revelar talentos da sua personalidade que até então você nem sabia que tinha.";
+                    }
+                }
+                else if (otu == data.Month)
+                {
+                    if (22 < dias)
+                    {
+                        signofrase += "O novo ano pode ser especialmente difícil para os escorpianos, que poderão perceber mais diretamente a retrogradação de Mercúrio.";
+                    }
+                    else
+                    {
+                        signofrase += "Librianos têm alto potencial para crescimento profissional, mas com certo nível de tensão e estresse nos relacionamentos.";
+                    }
+                }
+                else if (nov == data.Month)
+                {
+                    if (21 < dias)
+                    {
+                        signofrase += "Está na hora de transformar seus sonhos em realidade, sagitariano! 2020 pode ser um bom ano para criar novas rotinas e dar início a novos projetos.";
+                    }
+                    else
+                    {
+                        signofrase += "O novo ano pode ser especialmente difícil para os escorpianos, que poderão perceber mais diretamente a retrogradação de Mercúrio.";
+                    }
+                }
+                else if (dez == data.Month)
+                {
+                    if (21 < dias)
+                    {
+                        signofrase += "Diversas áreas da vida do capricorniano, de valores materiais e espirituais, podem passar por mudanças em 2020.";
+                    }
+                    else
+                    {
+                        signofrase += "Está na hora de transformar seus sonhos em realidade, sagitariano! 2020 pode ser um bom ano para criar novas rotinas e dar início a novos projetos.";
+                    }
+                }
+                return signofrase;
             }
         }
     }

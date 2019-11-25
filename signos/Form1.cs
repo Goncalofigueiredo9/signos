@@ -25,6 +25,7 @@ namespace signos
             label1.Text = ("O dia da semana é " + dia.diadasemana);
             label2.Text = dia.envia;
             label3.Text = dia.signo;
+            label4.Text = dia.signofrases;
         }
     }
 }
