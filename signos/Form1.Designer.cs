@@ -60,7 +60,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(481, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
             // 
             // label2
             // 
@@ -69,7 +68,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(501, 26);
             this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
             // 
             // label3
             // 
@@ -78,7 +76,6 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(461, 34);
             this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
             // 
             // Form1
             // 
